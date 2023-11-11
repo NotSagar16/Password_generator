@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.heading{
+    color: white;
+}
+.box{
+    margin: 8px;
+    width: 60vw;
+    height: 15vw;
+    background-color: rgb(73, 72, 72);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(255, 255, 255, 0.22) 0px 10px 10px;
+}
+.text{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#password{
+    width:100%;
+    outline: none;
+    padding: 10px 10px;
+    border-radius: 10px 0 0 10px;
+    font-size: 20px;
+    margin: 10px 0 20px 5px;
+    height: 50px;
+    border: none;
+}
+button{
+    height: 50px;
+    margin: 10px 5px 20px 0;
+    width: 70px;
+    border-radius: 0 10px 10px 0;
+    font-size: large;
+    border: none;
+    font-weight: bold;
+    background-color: rgb(74, 74, 219);
+    color: white;
+    cursor: pointer;
+}
+#range{
+    width: 50%;
+}
+label{
+    font-size: large;
+    font-weight: bold;
+    color: white;
+}
+#numberInput{
+    margin: 20px 0;
+}
+.checkbox{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
